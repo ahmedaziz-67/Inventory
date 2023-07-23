@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Inventory\Web.csproj", "{E5AD0751-EDDF-408F-A834-9650920FA44C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{18C08D2B-350D-4F1B-8021-6DEADD2589A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Layer", "Business Layer\Business Layer.csproj", "{261FFD12-491D-4AF4-ACD0-3E524D0B563F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5AD0751-EDDF-408F-A834-9650920FA44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5AD0751-EDDF-408F-A834-9650920FA44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5AD0751-EDDF-408F-A834-9650920FA44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5AD0751-EDDF-408F-A834-9650920FA44C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18C08D2B-350D-4F1B-8021-6DEADD2589A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18C08D2B-350D-4F1B-8021-6DEADD2589A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18C08D2B-350D-4F1B-8021-6DEADD2589A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18C08D2B-350D-4F1B-8021-6DEADD2589A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261FFD12-491D-4AF4-ACD0-3E524D0B563F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261FFD12-491D-4AF4-ACD0-3E524D0B563F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261FFD12-491D-4AF4-ACD0-3E524D0B563F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261FFD12-491D-4AF4-ACD0-3E524D0B563F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2836B6B2-A47A-4672-82FA-C54B610E3E36}
+	EndGlobalSection
+EndGlobal
